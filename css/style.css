@@ -1056,3 +1056,13 @@ img {
     align-items: center;
   }
 }
+
+/* ===== ABOUT IMAGE — DESKTOP FIX ===== */
+@media (min-width: 768px) {
+  .about-img img {
+    height: auto;
+    max-height: 650px;
+    object-fit: contain;
+    object-position: center;
+  }
+}
